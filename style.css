@@ -21,16 +21,21 @@ body {
 
 /*Rs de la page d'accueil*/
 
+.RS {
+    display: flex;
+    flex-direction: column;    
+}
+
 .twitter {
     background-image: url(image/twitter.png);
-    width: 9.375rem;
-    height: 3.6387rem;
+    width: 14.75rem;
+    height: 5.6656rem;
     border-radius: 18px;
 }
 
 .Line {
     background-image: url(image/Line.png);
-    width: 9.375rem;
-    height: 3.6387rem;
+    width: 14.75rem;
+    height: 5.6656rem;
     border-radius: 18px;
 }
