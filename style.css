@@ -3,15 +3,14 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
-    height: 100vh;
-    
-
-    
+    height: 100vh; 
 }
 
 body {
     margin: 0;
 }
+
+/*Logo centrale page d'accueil*/
 
 .Logo {
     text-align:center;
@@ -20,3 +19,18 @@ body {
 
 }
 
+/*Rs de la page d'accueil*/
+
+.twitter {
+    background-image: url(image/twitter.png);
+    width: 9.375rem;
+    height: 3.6387rem;
+    border-radius: 18px;
+}
+
+.Line {
+    background-image: url(image/Line.png);
+    width: 9.375rem;
+    height: 3.6387rem;
+    border-radius: 18px;
+}
