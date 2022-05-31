@@ -20,6 +20,7 @@ body {
     text-align:center;
     margin:auto;
     display:flex;
+    padding: bottom 50px;
 
 }
 
@@ -27,7 +28,9 @@ body {
 
 .RS {
     display: flex;
-    flex-direction: column;    
+    flex-direction: column; 
+    position: absolute;
+    transform: translateY(200%);   
 }
 
 .twitter {
