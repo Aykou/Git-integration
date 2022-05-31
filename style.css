@@ -5,11 +5,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
-    height: 100vh; 
+    height: 100vh;
+     
 }
 
 body {
     margin: 0;
+    display: flex;
 }
 
 
@@ -17,10 +19,13 @@ body {
 /*Logo centrale page d'accueil*/
 
 .Logo {
-    text-align:center;
-    margin:auto;
+justify-content: center;
     display:flex;
-    padding: bottom 50px;
+    align-content: center;
+    margin-right: 14rem;
+    margin-left: 21rem;
+    margin-top: 12.5rem;
+
 
 }
 
@@ -29,8 +34,9 @@ body {
 .RS {
     display: flex;
     flex-direction: column; 
-    position: absolute;
-    transform: translateY(200%);   
+    position: absolute; 
+    transform: translateX(20%);
+    margin-top: 9.125rem;
 }
 
 .twitter {
@@ -38,6 +44,7 @@ body {
     width: 14.75rem;
     height: 5.6656rem;
     border-radius: 18px;
+    margin-bottom: 10px;
 }
 
 .Line {
