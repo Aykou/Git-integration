@@ -209,8 +209,9 @@ ul.menu li:before {
   width: 0;
   overflow: hidden;
   transition: width 0.14s ease-out;
+  opacity: 0.5;
 }
-ul.menu li:after {
+ul.menu li a:after {
   opacity: 0;
   content: attr(data-text);
   position: absolute;
@@ -234,6 +235,21 @@ ul.menu li:hover:after {
   padding: 0 20px;
   transform: translate(0px, 6px);
   transition: transform 0.2s 0.14s ease-out, opacity 0.2s 0.14s ease-out;
+}
+a:hover:before {
+  left: 0;
+  right: auto;
+  width: 100%;
+}
+a:hover:after {
+  opacity: 1;
+  padding: 0 20px;
+  transform: translate(0px, 6px);
+  transition: transform 0.2s 0.14s ease-out, opacity 0.2s 0.14s ease-out;
+}
+a {
+  text-decoration: none;
+  color: #FFFFFF;
 }
 .open ul.menu li {
   opacity: 1;
