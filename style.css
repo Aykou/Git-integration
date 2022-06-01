@@ -6,12 +6,13 @@
     background-size: cover;
     width: 100vw;
     height: 100vh;
+    display: flex;
      
 }
 
 body {
     margin: 0;
-    display: flex;
+
 }
 
 
@@ -25,6 +26,8 @@ body {
     margin-right: 14rem;
     margin-left: 29rem;
     margin-top: 12.5rem;
+    width: 63.0625rem;
+    height: 11.5625rem;
 
 
 }
@@ -38,7 +41,7 @@ body {
     flex-direction: column; 
     position: absolute; 
     transform: translateX(10%);
-    margin-top: 19.125rem;
+    margin-top: 41.125rem;
 }
 
 .twitter {
@@ -62,7 +65,7 @@ body {
 
 .toto {
    position: absolute;
-   transform: translateX(350%) translateY(90%);
+   transform: translateX(350%) translateY(230%);
 }
 
 .textoto {
@@ -70,3 +73,27 @@ body {
     color: #FFFFFF;
     
 }
+
+/*Page 2*/
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    background-image: url(image/page2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1920px;
+    height: 1080px;
+}
+
+/*Page 3*/
+.container3 {
+    background-image: url(image/page3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+/*Page 4*/
