@@ -19,11 +19,11 @@ body {
 /*Logo centrale page d'accueil*/
 
 .Logo {
-justify-content: center;
+    justify-content: center;
     display:flex;
     align-content: center;
     margin-right: 14rem;
-    margin-left: 21rem;
+    margin-left: 29rem;
     margin-top: 12.5rem;
 
 
@@ -31,12 +31,14 @@ justify-content: center;
 
 /*Rs de la page d'accueil*/
 
+
+
 .RS {
     display: flex;
     flex-direction: column; 
     position: absolute; 
-    transform: translateX(20%);
-    margin-top: 9.125rem;
+    transform: translateX(10%);
+    margin-top: 19.125rem;
 }
 
 .twitter {
@@ -45,6 +47,8 @@ justify-content: center;
     height: 5.6656rem;
     border-radius: 18px;
     margin-bottom: 10px;
+    border-color: transparent;
+    cursor: pointer;
 }
 
 .Line {
@@ -52,8 +56,17 @@ justify-content: center;
     width: 14.75rem;
     height: 5.6656rem;
     border-radius: 18px;
+    border-color: #00C300;
+    cursor: pointer;
 }
 
-/*Menu burger*/
+.toto {
+   position: absolute;
+   transform: translateX(350%) translateY(90%);
+}
 
-
+.textoto {
+    text-align: center;
+    color: #FFFFFF;
+    
+}
