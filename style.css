@@ -88,7 +88,7 @@ body {
     height: 740px;
     animation-duration: 3s;
     animation-name: slidein;
-    animation-iteration-count: infinit;
+    animation-delay: 2ms;
 }
 
 .tetemiya{
@@ -137,7 +137,115 @@ body {
     width: 100vw;
     height: 100vh;
     display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.wolfp {
+    width: 12.9375rem;
+    height: 17.625rem;
+   
+}
+
+.mononoke {
+    width: 20.625rem;
+    height: 42.625rem;
+}
+
+.synopsisabout {
+    background-image: url(image/synopsis.png);
+    width: 14.6875rem;
+    height: 5.8125rem;
+    border-radius: 18px;
+    margin-left: 5.625rem;
+    cursor: pointer;
+    
+}
+
+.textemo {
+    width: 429px;
+    height: 740px;
+    
+}
+
+/*Contient wolf,princess,bouton*/
+
+.monowolfbout {
+display: flex;
+margin-right: 30px;
+animation-duration: 3s;
+animation-name: slidein2;
+animation-delay: 2ms;
+}
+@keyframes slidein2 {
+    from {
+      margin-right: 130%;
+      width: 20%;
+    }
+  
+    to {
+      margin-right: 9.5%;
+      width: 20%;
+    }
+  }
+/*Contient princess,bouton*/
+
+.monowolf {
     flex-direction: column;
+    display: flex;
 }
 
 /*Page 4*/
+
+.container4 {
+    background-image: url(image/page4.png);
+    width: 120rem;
+    height: 50.625rem;
+}
+.plank1 {
+margin-top: 30px;
+}
+.plank4 {
+    margin-top: 40px;
+}
+.NEWSBOUT {
+    width: 37.625rem;
+    height: 4.9375rem;
+    border-radius: 25px;
+    background-color: #109CEB;
+    border-color: transparent;
+    cursor: pointer;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+    
+}
+
+.news {
+
+}
+
+
+footer
+ {
+    background-color: #9BC6C8;
+    width: 120rem;
+    height: 17rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.List1{
+    list-style: none;
+    font-size: 24px;
+}
+
+.List2{
+    list-style: none;
+    font-size: 24px;
+}
+
+.GiveInfos {
+    display: flex;
+    flex-direction: column;
+}
