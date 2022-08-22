@@ -20,11 +20,11 @@ body {
     justify-content: center;
     display:flex;
     align-content: center;
-    margin-right: 14rem;
-    margin-left: 29rem;
-    margin-top: 12.5rem;
-    width: 63.0625rem;
-    height: 11.5625rem;
+    margin-right: 224px;
+    margin-left: 464px;
+    margin-top: 200px;
+    width: 1009px;
+    height: 185px;
 
 
 }
@@ -36,24 +36,24 @@ body {
     flex-direction: column; 
     position: absolute; 
     transform: translateX(10%);
-    margin-top: 41.125rem;
+    margin-top: 658px;
 }
 
 .twitter {
     background-image: url(image/twitter.png);
-    width: 14.75rem;
-    height: 5.6656rem;
-    border-radius: 18px;
-    margin-bottom: 10px;
+    width: 236px;
+    height: 90.6496px;
+    border-radius: 1.125rem;
+    margin-bottom: .625rem;
     border-color: transparent;
     cursor: pointer;
 }
 
 .Line {
     background-image: url(image/Line.png);
-    width: 14.75rem;
-    height: 5.6656rem;
-    border-radius: 18px;
+    width: 236px;
+    height: 90.6496px;
+    border-radius: 1.125rem;
     border-color: #00C300;
     cursor: pointer;
 }
@@ -77,23 +77,23 @@ body {
     background-image: url(image/page2.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1920px;
-    height: 1080px;
+    width: 120rem;
+    height: 67.5rem;
     justify-content: center;
     align-items: center;
 }
 
 .textmiya {
-    width: 429px;
-    height: 740px;
+    width: 26.8125rem;
+    height: 46.25rem;
     animation-duration: 3s;
     animation-name: slidein;
     animation-delay: 2ms;
 }
 
 .tetemiya{
-    width: 23.1875rem;
-    height: 33.75rem;
+    width: 371px;
+    height: 540px;
 
   
 }
@@ -114,17 +114,17 @@ body {
 
     background-image: url(image/wiki.png);
     background-color: #6D797D;
-    width: 13.875rem;
-    height: 5.1981rem;
-    border-radius: 18px;
-    margin-top: 30px;
+    width: 222px;
+    height: 83.1696px;
+    border-radius: 1.125rem;
+    margin-top: 1.875rem;
     cursor: pointer;
 }
 
 .Miyaetwiki {
     display: flex;
     flex-direction: column;
-    margin-left: 40px;
+    margin-left: 2.5rem;
     align-items: center;
 }
 
@@ -143,29 +143,29 @@ body {
 }
 
 .wolfp {
-    width: 12.9375rem;
-    height: 17.625rem;
+    width: 207px;
+    height: 282px;
    
 }
 
 .mononoke {
-    width: 20.625rem;
-    height: 42.625rem;
+    width: 330px;
+    height: 682px;
 }
 
 .synopsisabout {
     background-image: url(image/synopsis.png);
-    width: 14.6875rem;
-    height: 5.8125rem;
-    border-radius: 18px;
-    margin-left: 5.625rem;
+    width: 235px;
+    height: 93px;
+    border-radius: 1.125rem;
+    margin-left: 90px;
     cursor: pointer;
     
 }
 
 .textemo {
-    width: 429px;
-    height: 740px;
+    width: 26.8125rem;
+    height: 46.25rem;
     
 }
 
@@ -173,7 +173,7 @@ body {
 
 .monowolfbout {
 display: flex;
-margin-right: 30px;
+margin-right: 1.875rem;
 animation-duration: 3s;
 animation-name: slidein2;
 animation-delay: 2ms;
@@ -200,23 +200,23 @@ animation-delay: 2ms;
 
 .container4 {
     background-image: url(image/page4.png);
-    width: 120rem;
-    height: 50.625rem;
+    width: 1920px;
+    height: 810px;
 }
 .plank1 {
-margin-top: 30px;
+margin-top: 1.875rem;
 }
 .plank4 {
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 .NEWSBOUT {
-    width: 37.625rem;
-    height: 4.9375rem;
-    border-radius: 25px;
+    width: 602px;
+    height: 79px;
+    border-radius: 1.5625rem;
     background-color: #109CEB;
     border-color: transparent;
     cursor: pointer;
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
     color: #FFFFFF;
     font-family: 'DM Serif Display', serif;
     font-family: 'Merienda', cursive;
@@ -231,15 +231,16 @@ margin-top: 30px;
 footer
  {
     background-color: #9BC6C8;
-    width: 120rem;
-    height: 17rem;
+    width: 1920px;
+    height: 272px;
     display: flex;
     justify-content: space-between;
 }
 
 .List1{
+    margin-right: 6.25rem;
     list-style: none;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: 'DM Serif Display', serif;
     font-family: 'Merienda', cursive;
 
@@ -247,20 +248,48 @@ footer
 
 .List2{
     list-style: none;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: 'DM Serif Display', serif;
     font-family: 'Merienda', cursive;
 }
 
-.GiveInfos {
+.GiveInfos 
+{
     display: flex;
     flex-direction: column;
 }
 
-.deuxlu {
-display: flex;
+.deuxlu 
+{
+    display: flex;
+
 }
 
-.boutonnewssign {
+.boutonnewssign 
+{
     display: flex;
+    margin-right: 6.25rem;
+    margin-top: 3.125rem;
+
+}
+
+.searchbou
+{
+    width: 453px;
+    height: 30px;
+    border-radius: 10px;
+    border-color: #000000;
+
+}
+
+.Signinbou
+{
+    width: 163.3296px;
+    height: 62.3696px;
+    border-radius: 35px;
+    background-color: #109CEB;
+    color: #FFFFFF;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Merienda', cursive;
+    cursor: pointer;
 }
