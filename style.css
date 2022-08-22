@@ -203,12 +203,32 @@ animation-delay: 2ms;
     width: 1920px;
     height: 810px;
 }
+
 .plank1 {
-margin-top: 1.875rem;
+    margin-top: 1.875rem;
+    margin-bottom: -35px;
+    margin-left: 20px;
 }
+
+.plank2 {
+    margin-top: 1.875rem;
+    margin-bottom: -35px;
+    margin-left: 20px;
+}
+
+.plank3 {
+    margin-top: 1.875rem;
+    margin-bottom: -35px;
+    margin-left: 20px;
+}
+
 .plank4 {
-    margin-top: 2.5rem;
+    margin-top: 1.875rem;
+    margin-bottom: -35px;
+    margin-left: 20px;
 }
+
+
 .NEWSBOUT {
     width: 602px;
     height: 79px;
@@ -216,7 +236,7 @@ margin-top: 1.875rem;
     background-color: #109CEB;
     border-color: transparent;
     cursor: pointer;
-    margin-bottom: 1.875rem;
+    margin-bottom: 2.875rem;
     color: #FFFFFF;
     font-family: 'DM Serif Display', serif;
     font-family: 'Merienda', cursive;
